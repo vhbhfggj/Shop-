@@ -35,12 +35,17 @@ a{
 }
 .hero{
 border-bottom: 2px solid #779611;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 20px;
 }
 .hero-container-container{
-    display: flex;
 width: 600px;
-height: 800px;
-margin: 350px;
+height: 550px;
+display: flex;
+align-items: center;
+
 }
 
 .title{
@@ -48,15 +53,14 @@ margin: 350px;
 font-weight: 600;
 font-size: 48px;
 color: #779611;
-margin-bottom: 50px;
 }
 .hero-text {
 font-weight: 400;
 font-size: 24px;
 color: #000;
 display: flex;
-margin: 100px;
-display: grid;
+margin-right: 500px;
+
 }
 .hero-button {
     border-radius: 40px;
@@ -65,4 +69,10 @@ width: 224px;
 height: 75px;
 background: #779611;
 
+}
+.hero-img {
+width: 800px;
+height: 500px;
+display: flex;
+margin-left: 200px;
 }
